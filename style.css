@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(255, 252, 248);
+}
+.bordered-box {
+    border: 2px solid rgba(47, 8, 146, 0); 
+    background-color: rgba(2, 3, 14, 0.498); 
+    padding: 15px; 
+    border-radius: 10px;
+    width: 545px;
+  }
+
+  header{
+    background-color: rgb(4, 4, 28);
+  }
+
+  .bordered-box h2 {
+    margin-top: 0; 
+    margin-bottom: 15px; 
+    font-size: 15px;
+    float: left;
+  }
+  
+  form{
+    float: left;
+    width: 500px;
+}
+
+a,
+h2,
+option,
+label{
+  font-family: Poppins, sans-serif;
+}
+
+label{
+  font-size: 90%;
+}
+
+mark{
+  border: 2px transparent;
+  border-radius: 8px;
+  height: 80%;
+}
+
+.btn {
+  margin-top: 2%;
+  background-color: rgb(4, 4, 28);
+}
+
+@media screen and (max-width: 768px) {
+  header .container-fluid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header img {
+      margin: 0; /* Remove o espaço lateral do logo em dispositivos móveis */
+      width: 40%; /* Reduz o tamanho do logo */
+  }
+
+  header .nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header .nav .nav-link {
+      padding: 8px 0; /* Reduz o padding para links */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-item img {
+      width: 100%;
+      height: auto; /* Ajuste automático da altura para manter a proporção */
+  }
+
+  .carousel-caption h1 {
+      font-size: 24px; /* Reduz o tamanho do título */
+  }
+
+  .carousel-caption p {
+      font-size: 14px; /* Reduz o tamanho do parágrafo */
+      margin-top: 5px; /* Ajuste de espaço */
+  }
+
+  .carousel-caption {
+      text-align: center;
+      padding: 10px; /* Ajuste de espaçamento */
+  }
+}
